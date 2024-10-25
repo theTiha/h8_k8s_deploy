@@ -8,8 +8,8 @@ spec:
   accessModes:
     - ReadWriteMany
   nfs:
-    path: /nfs/demo-html  # Update with your NFS path
-    server: <NFS_SERVER_IP>  # Update with your NFS server IP
+    path: /mnt/Cust_pool/demo01 
+    server: 172.16.252.21  
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
